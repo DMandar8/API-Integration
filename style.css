@@ -94,3 +94,22 @@ form button{
 .to p{
     font-size: 1.2rem;
 }
+@media screen and (max-width:475px){
+    .container{
+        width: 45vh;
+    }
+} 
+@media screen and (max-width:435px){
+    .container{
+        width: 40vh;
+    }
+} 
+@media screen and (max-width:395px){
+    .container{
+        width: 35vh;
+    }
+} 
+input:focus{
+    border: 3px solid  #9381ff;
+    
+}
